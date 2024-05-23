@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  -ms-overflow-style: none;
+  font-family: "NotoSans";
+}
