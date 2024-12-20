@@ -1,20 +1,12 @@
 import decoImg from "asset/images/decoration.png";
 import profile from "asset/images/profile.png";
-import { Button } from "components/common/Button";
 
 export const Intro = () => {
-  const btnStyle = {
-    width: "w-154",
-    height: "h-50",
-    color: "navy",
-  };
-
   return (
     <div className="flex flex-col w-full pt-64 max-w-1400">
       {/* section 1 */}
       <div className="flex justify-between w-full">
         <img src={decoImg} className="h-41" alt="decoration" />
-        <Button desc="download" style={btnStyle} />
       </div>
 
       {/* section 2 */}

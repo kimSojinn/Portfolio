@@ -9,6 +9,7 @@ interface ButtonStyle {
   bgColor?: string;
   color?: string;
   fontsize?: string;
+  border?: string;
 }
 
 export const Button = ({ desc, style }: Props) => {
@@ -17,10 +18,11 @@ export const Button = ({ desc, style }: Props) => {
   const bgColor = style.bgColor;
   const color = style.color;
   const fontsize = style.fontsize;
+  const border = style.border;
 
   return (
     <button
-      className={`py-3 bg-white cursor-pointer rounded-6 px-7 ${width} ${height} ${bgColor} ${color} ${fontsize}`}
+      className={`py-3 bg-white cursor-pointer rounded-6 px-7 ${width} ${height} ${bgColor} ${color} ${fontsize} ${border}`}
     >
       {desc}
     </button>
