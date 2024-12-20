@@ -2,7 +2,7 @@ import { Home } from "pages/Home";
 
 function App() {
   return (
-    <div>
+    <div className="flex flex-col items-center justify-center">
       <Home />
     </div>
   );
